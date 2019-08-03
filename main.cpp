@@ -7,14 +7,6 @@
 #include <string>
 #include <vector>
 
-//vetor com as clausulas ok
-//array de  variaveis ok
-
-//procurar ocorrencias da var, ver se mata a clausula ou sóa var
-// ai cria um novo array
-
-//num variaveis + clausulas
-
 using namespace std;
 
 class Sat {
@@ -56,7 +48,7 @@ class Sat {
         vector<int> clauses;
         vector<bool> variables;
         vector<Data> indices;
-//        vector<vector <Data>> mapping[3][4];
+
 /*
     void criaArrayIndices (int inicio,int fim, int indice) {
 
@@ -177,9 +169,9 @@ class Sat {
 
     bool solver(vector<int> clausesCopy) {
 
-    //escolher variável
+    //escolher variÃ¡vel
     //ir no array de variaveis e colocar valor no variavel
-    //varre vetor de clausulas
+    //varrer vetor de clausulas
     }
 
 };
@@ -196,10 +188,10 @@ int main()
     cout << s.clauses.at(i);
     cout << '\n';
   }  */
-
-  int i = 0;
-  //cout << "INDICES\n";
 /*
+  int i = 0;
+  cout << "INDICES\n";
+
   for (i = 0; i < s.indices.size(); i++) {
 
     cout << s.getClauseStart(s.indices.at(i));
